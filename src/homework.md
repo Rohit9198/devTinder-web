@@ -10,3 +10,11 @@
 - what is the use of "-g" while npm install
 
 
+- initialize git
+- .gitignore
+- create a remote repo on github
+- push all code to remote origin
+- play with routes and route extensions ex. / hello, / , hello/2, /xyz
+- order of the routes is very much matter a lot
+- Install Postman app and make a test a workspace/ collection > test API call
+- Write logic to handle GET, POST, PATCH, DELETE API calls
