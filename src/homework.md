@@ -31,4 +31,13 @@
 - How express JS basically handles requests behind the scenes
 - Difference app.use and app.all
 - write a dummy auth middleware for admin
-- write a dummy auth middle 
+- write a dummy auth middleware for all user routes, except / user/login
+- Error Handling using app.use("/", (err, req, res, next) = {})
+
+- Create a free cluster on mongoDB official website 
+- Install mongoose library
+- Connect your application to the database / devtinder "Connection-url"/devTinder
+- call  the connectDB function and connect to database before starting application on 7777
+- create a userSchema & user model
+- create POST / signup API to add data to databse
+- push some documents using API calls from postman
