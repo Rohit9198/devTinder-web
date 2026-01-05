@@ -2,10 +2,16 @@ const express = require('express');
 
 const app = express();
 
-app.get("/user", (req, res) => {
-    res.send({ firstName: "Rohit", lastName: "Singh"});
+app.use("/user",(req, res, next) =>{
+    console.log("Handling the route user!!");
+    //res.send("response!!")
+    next();
+},
+(req, res) =>{
+    console.log("Handling the route user 2!!");
+    res.send("2nd Response!!");
 });
 
-app.listen(3000, () =>{
-    console.log("Server is successfully listening on port 3000... ");
+app.listen(7777, () =>{
+    console.log("Server is successfully listening on port 7777... ");
 });
