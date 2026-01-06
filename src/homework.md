@@ -41,3 +41,8 @@
 - create a userSchema & user model
 - create POST / signup API to add data to databse
 - push some documents using API calls from postman
+- Error Handling using try, catch
+
+- js object vs JSON() Difference
+- add the express .json middleware to your app
+- make your Signup API dynamic to recive data from the end user
