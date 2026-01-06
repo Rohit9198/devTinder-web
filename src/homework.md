@@ -65,3 +65,5 @@
 - Add timestamps to the userSchema
 - Add APi level validation on patch request & Signup post api
 - DATA Sanitizing Add API validation for each field
+- Install validator
+- Explore use Validator library function and use validator function for password , email, 
