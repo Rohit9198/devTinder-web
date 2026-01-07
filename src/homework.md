@@ -67,3 +67,10 @@
 - DATA Sanitizing Add API validation for each field
 - Install validator
 - Explore use Validator library function and use validator function for password , email, 
+- NEVER TRUST reeq.body
+
+- validate data in signup API
+- Install bcrypt library
+- create a passowrd hashed using bcrypt .hash & save the user is excpted password
+- Create login API
+- Compare passowrds and throw errors if email or password is invalid
