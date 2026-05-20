@@ -10,7 +10,7 @@ require("./utils/cronjob");
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://vercel.com/new/rohit9198s-projects/success?auto-redirect=true&developer-id=&external-id=&redirect-url=&branch=main&deploymentUrl=dev-tinder-g6a8zuomi-rohit9198s-projects.vercel.app&projectName=dev-tinder&s=https%3A%2F%2Fgithub.com%2FRohit9198%2FDevTinder&gitOrgLimit=&hasTrialAvailable=1&totalProjects=1&flow-id=QyfIgwi95yc292nNLk0nT",
     credentials: true,
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
   })
