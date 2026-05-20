@@ -1,4 +1,3 @@
-
 const validator = require("validator");
 
 const validateSignUpData = (req) => {
@@ -7,7 +6,13 @@ const validateSignUpData = (req) => {
     throw new Error("Name is not valid!");
   } else if (!validator.isEmail(emailId)) {
     throw new Error("Email is not valid!");
-  } else if (!validator.isStrongPassword(password)) {
+  } else if (!validator.isStrongPassword(password, {
+    minLength: 8,
+    minLowercase: 1,
+    minUppercase: 0,
+    minNumbers: 1,
+    minSymbols: 0,
+  })) {
     throw new Error("Please enter a strong Password!");
   }
 };
